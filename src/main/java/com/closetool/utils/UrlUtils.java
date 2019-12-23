@@ -4,7 +4,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public final class UrlUtils {
-    public static String parseHost(String url){
+    public static String getHost(String url){
         String host = null;
         try {
             URL url_o = new URL(url);
@@ -17,7 +17,7 @@ public final class UrlUtils {
     }
 
 
-    public static String parseP(String url){
+    public static String parseDir(String url){
 
         if(url.contains("bangumi")){
             String[] strings = url.split("/");
@@ -27,6 +27,7 @@ public final class UrlUtils {
             try{
                 i = Integer.parseInt(url.split("\\?")[1].split("=")[1]);
             }catch (ArrayIndexOutOfBoundsException e){
+
             }
             return String.valueOf(i);
         }

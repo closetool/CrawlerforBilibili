@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6015b0c2-8f2e-4e46-afb6-a5e6e94b0b9d" name="默认更改列表" comment="爬取b站视频的小程序">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CrawlerforBilibili.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/WebCrawler.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/closetool/Downloader/AudioDownloader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/closetool/Downloader/Downloader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/closetool/Downloader/HtmlDownloader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/closetool/Downloader/SourceDownloader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/closetool/Downloader/VideoDownloader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/closetool/Pageprocessor/HtmlProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/closetool/Pageprocessor/Processor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/closetool/Spider/Crawl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/closetool/Spider/Spider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/closetool/biliurl/BilibiliUrl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/closetool/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/closetool/utils/HttpClientUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/closetool/utils/ProgressUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/closetool/utils/UrlUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/closetool/Downloader/AudioDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/closetool/Downloader/AudioDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/closetool/Downloader/VideoDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/closetool/Downloader/VideoDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/closetool/Spider/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/closetool/Spider/Spider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/closetool/biliurl/BilibiliUrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/closetool/utils/UrlUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/closetool/utils/UrlUtils.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Closetool" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="c1d86233-cee5-4cf7-85fa-85f4b5bc5799" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\IDEA\IdeaProjects\WebCrawler\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1VHLPepr0PByxy9WDiUPSde3zZ0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.closetool.main.Main" />
+      <module name="CrawlerforBilibili" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.closetool.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6015b0c2-8f2e-4e46-afb6-a5e6e94b0b9d" name="默认更改列表" comment="" />
+      <created>1576905050486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576905050486</updated>
+      <workItem from="1576905052350" duration="2133000" />
+      <workItem from="1576907207807" duration="1587000" />
+      <workItem from="1576908824481" duration="3253000" />
+      <workItem from="1576912092272" duration="42000" />
+      <workItem from="1576912610835" duration="6870000" />
+      <workItem from="1576939250962" duration="3029000" />
+      <workItem from="1576981907424" duration="20101000" />
+      <workItem from="1577008848984" duration="314000" />
+      <workItem from="1577009179867" duration="5165000" />
+      <workItem from="1577016770208" duration="615000" />
+      <workItem from="1577024158986" duration="28000" />
+      <workItem from="1577072765705" duration="2163000" />
+      <workItem from="1577075012082" duration="990000" />
+      <workItem from="1577076053338" duration="271000" />
+    </task>
+    <task id="LOCAL-00001" summary="爬取b站视频的小程序">
+      <created>1577075502393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577075502393</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="爬取b站视频的小程序" />
+    <option name="LAST_COMMIT_MESSAGE" value="爬取b站视频的小程序" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="306" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577009242754">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="306" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577009242754" />
+    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1577073416660">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577073416660" />
+    <state x="581" y="224" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577009119655">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="581" y="224" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1577009119655" />
+    <state x="602" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576995414998">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="602" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1576995414998" />
+    <state x="361" y="14" key="CommitChangelistDialog2" timestamp="1577076384061">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="14" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577076384061" />
+    <state x="589" y="109" key="FileChooserDialogImpl" timestamp="1577075118804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="589" y="109" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577075118804" />
+    <state x="589" y="308" width="273" height="209" key="Github.ShareDialog" timestamp="1577075844175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="589" y="308" width="273" height="209" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1577075844175" />
+    <state width="1106" height="137" key="GridCell.Tab.0.bottom" timestamp="1577074932563">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1106" height="137" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577074932563" />
+    <state width="1106" height="137" key="GridCell.Tab.0.center" timestamp="1577074932563">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1106" height="137" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577074932563" />
+    <state width="1106" height="137" key="GridCell.Tab.0.left" timestamp="1577074932563">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1106" height="137" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577074932563" />
+    <state width="1106" height="137" key="GridCell.Tab.0.right" timestamp="1577074932563">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1106" height="137" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577074932563" />
+    <state x="463" y="117" key="NewModule_or_Project.wizard" timestamp="1577024188194">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="463" y="117" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1577024188194" />
+    <state x="215" y="86" key="SettingsEditor" timestamp="1577075438941">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="215" y="86" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577075438941" />
+    <state x="257" y="120" width="964" height="592" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1577076457273">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="257" y="120" width="964" height="592" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1577076457273" />
+    <state x="535" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577076323585">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="535" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1577076323585" />
+    <state x="559" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1576991518626">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="559" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1576991518626" />
+  </component>
+</project>

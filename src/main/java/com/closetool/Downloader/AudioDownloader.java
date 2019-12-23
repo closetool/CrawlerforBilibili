@@ -1,17 +1,9 @@
 package com.closetool.Downloader;
 
 import com.closetool.utils.HttpClientUtils;
-import com.closetool.utils.ProgressUtils;
 import com.closetool.utils.UrlUtils;
-import org.apache.http.Header;
 import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
-
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
 
 public class AudioDownloader extends SourceDownloader {
     /**
@@ -25,7 +17,7 @@ public class AudioDownloader extends SourceDownloader {
         this.des = des;
         this.client = client;
         this.get = new HttpGet(url_get);
-        this.get.setHeaders(HttpClientUtils.String2Headers("Host: "+ UrlUtils.parseHost(url_get) +"\n" +
+        this.get.setHeaders(HttpClientUtils.String2Headers("Host: "+ UrlUtils.getHost(url_get) +"\n" +
                 "Connection: keep-alive\n" +
                 "Origin: https://www.bilibili.com\n" +
                 "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36\n" +

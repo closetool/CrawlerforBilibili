@@ -32,7 +32,7 @@ public class Spider implements Crawl {
         StringBuilder builder = downloader.getHtml();
         HtmlProcessor htmlProcessor = new HtmlProcessor(builder);
         htmlProcessor.process();
-        des += File.separator + htmlProcessor.getName() + File.separator + UrlUtils.parseP(url);
+        des += File.separator + htmlProcessor.getName() + File.separator + UrlUtils.parseDir(url);
         new Thread(() -> {
             VideoDownloader videoDownloader = new VideoDownloader(des,
                     HttpClients.createDefault(), htmlProcessor.getVideo_url().get(0),
