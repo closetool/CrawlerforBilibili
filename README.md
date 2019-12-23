@@ -14,7 +14,4 @@ b站视频爬虫
 
 
 
-本栏内容只供学习使用，如有违反法律，与本人无关  
-在下载后24小时后，请及时删除        
-
 [1]:https://blog.csdn.net/Enderman_xiaohei/article/details/94718494
